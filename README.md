@@ -10,8 +10,8 @@
 
 ## 使用方式
 - 安装依赖：`pip install -r requirements.txt`
-- 修改配置：修改 settings.xml 中的 gitlab 相关认证信息
-- 运行脚本：使用 python 运行 gitlab-ranking-list.py
+- 修改配置：修改 `settings.py` 中的 gitlab 相关认证信息
+- 运行脚本：使用 python 运行 `gitlab-ranking-list.py`
 - 查看结果：脚本执行完毕后，会生成 `gitlab-ranking-list.html`，可以用浏览器打开查看
 
 备注：仓库数量越多，脚本执行的时间会越长
