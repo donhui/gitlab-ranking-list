@@ -1,0 +1,4 @@
+*.pyc
+ENV/*
+venv/*
+.idea
