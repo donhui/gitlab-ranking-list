@@ -174,7 +174,7 @@ def main():
 
     logger.info("top 100:")
     for project_metadata in top_100_project_metadata:
-        print project_metadata
+        print(project_metadata)
     html_table = generate_project_metadata_html_table(top_100_project_metadata)
     os.system('echo "%s" > gitlab-ranking-list.html' % html_table)
 

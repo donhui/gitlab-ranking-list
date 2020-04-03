@@ -8,6 +8,9 @@
 ## gitlab 排行榜
 仓库大小排行榜（排除掉 forked 仓库），按仓库大小降序排列，以网页表格的形式展示 TOP 100
 
+## 环境要求
+Python 3.4+
+
 ## 使用方式
 - 安装依赖：`pip install -r requirements.txt`
 - 修改配置：修改 `settings.py` 中的 gitlab 相关认证信息
