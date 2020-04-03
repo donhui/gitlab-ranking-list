@@ -132,8 +132,8 @@ def generate_project_metadata_html_table(project_metadata_list):
     html_table += "<td>repository size</td>"
     html_table += "<td>last activity date</td>"
     html_table += "</tr>"
-    number = 1
-    for project_metadata in project_metadata_list:
+    for i, project_metadata in enumerate(project_metadata_list):
+        number = i + 1
         html_table += "<tr>"
         html_table += "<td>%s</td>" % number
         path_with_link = "<a href='%s'>%s</a>" % (project_metadata.http_url_to_repo,
@@ -162,7 +162,6 @@ def generate_project_metadata_html_table(project_metadata_list):
         else:
             html_table += "<td>%s</td>" % last_activity_at_date
         html_table += "</tr>"
-        number += 1
     html_table += "</table>"
     return html_table
 
