@@ -11,6 +11,8 @@
 ## 环境要求
 Python 3.4+
 
+备注：如果使用的是 Python 2.7，请查看相关历史 [tag](https://github.com/donhui/gitlab-ranking-list/releases/tag/python-2-release)
+
 ## 使用方式
 - 安装依赖：`pip install -r requirements.txt`
 - 修改配置：修改 `settings.py` 中的 gitlab 相关认证信息
